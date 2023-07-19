@@ -1,0 +1,117 @@
+.navhead{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    /* border: 1px s white; */
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+nav > ul > li{
+    list-style: none;
+    margin: 20px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+
+}
+.navbutt{
+    display: flex;
+    border: 4px solid rgba(216, 216, 216, 0.705);
+    border-radius: 5px;
+    padding: 15px 0 15px 10px;
+    margin: 12px 0 8px 0;
+
+    background-color: rgba(196, 196, 196, 0.705);
+    height: 5px;
+    width: 185px;
+    
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+}
+.navbutt > button{
+    display: flex;
+    border-style: none;
+    background-color: rgba(216, 216, 216, 0.705);
+    /* height: 50%; */
+
+
+}
+.buttxt{
+    /* margin-right: 10px; */
+    color: rgb(17, 17, 17);
+    font-size: 15px;
+    margin-left: 5px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif */
+}
+
+.youlink > img{
+    /* border: 1px solid black; */
+    height: 30px;
+}
+    
+
+.navtext{
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    margin-left: 500px;
+    
+}
+
+.navtext > li{
+    margin: 10px;
+    list-style: none;
+}
+
+.navtext > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+
+}
+
+.navlogo > li{
+    list-style: none;
+    margin: 10px;
+}
+
+.navlogo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.logotext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.logotext > span{
+    color: rgba(250, 64, 157, 0.942);
+}
+
+.logoicon > img{
+    height: 30px;
+    /* width: 20%; */
+}
+
+.navtext > li > a:hover{
+    background-color: lightblue;
+}
+.youlink > img:hover{
+    background-color: linen;
+}
