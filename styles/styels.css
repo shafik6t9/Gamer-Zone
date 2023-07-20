@@ -1,3 +1,6 @@
+
+/* HEADER SECTION */
+
 .navhead{
     position: fixed;
     width: 100%;
@@ -115,3 +118,413 @@ nav > ul > li > a{
 .youlink > img:hover{
     background-color: linen;
 }
+
+/* HEADER SECTION CLOSE */
+/* banner section */
+.banner {
+    background-color: #ece8e8;
+    height: 80%;
+}
+
+.banner-div-2 > img {
+    width: 85%;
+    height: 100%;
+}
+
+.bannet-div-1 {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+
+.banner-content {
+    margin-left: 8%;
+
+}
+
+.banner-goat {
+    font-size: 4em;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, rgb(255, 84, 255),rgb(105, 105, 236));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.banner-title {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.li-button {
+    list-style: none;
+    margin: 5%;
+    font-size: 2em;
+    color: #534C64;
+}
+
+.button-1 {
+    border-radius: 48px;
+    background-color: rgb(223, 99, 140);
+    color: #FFF;
+    font-weight: 200;
+    line-height: normal;
+    width: 8em;
+    height: 3em;
+}
+.button-1:hover{
+    font-weight: bold;
+    background-color: rgb(249, 61, 124);
+}
+.button-2 {
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    width: 8em;
+    height: 3em;
+}
+.button-2:hover{
+    border: 1px solid rgb(173, 160, 160);
+    font-weight: bold;
+    background-color: #36b5eb
+}
+/* banner */
+/* we are gamer */
+.we-r-gamer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.team-content{
+    text-align: end;
+   
+   width: 30%;
+   margin-right: 2%;
+}
+#gamer-title{
+    background-image: linear-gradient(to left, rgb(255, 0, 255), blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.team-content>button{
+border: 1px solid rgb(188, 181, 181);
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    width: 8em;
+    height: 3em;
+    margin-bottom: 3%;
+}
+.team-content>button:hover{
+    border: 1px solid rgb(173, 160, 160);
+    font-weight: bold;
+    background-color: #35bdf7
+}
+
+    .team-text{
+        margin-bottom: 2%;
+    }
+    #team-end-text{
+        color: #2400789f;
+    }
+/* online games */
+.online-games {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.og-h1-span {
+    background-image: linear-gradient(to right, rgb(255, 0, 255), blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.og-h1 {
+    font-size: 3em;
+}
+.og-img {
+    display: flex;
+    justify-content: center;
+    
+    height: 50%;
+    margin-top: 1%;
+   
+    padding: 0px 100px;
+}
+.og-img-div{
+     text-align: start;
+}
+.og-img-div>img{
+    width: 90%;
+    height: 100%;
+}
+/* .watch{
+    border: 2px solid red;
+    width: 100px 
+    ;
+    height: 100px;
+    position: relative;
+    left: 15%;
+} */
+#img-1:hover, #img-2:hover, #img-3:hover, #img-4:hover{
+    opacity: 0.7;
+    
+}
+
+.play-games{
+    margin-top: 5%;
+    display: flex;
+    
+}
+.play-games-img{
+    padding-left: 2%;
+    
+}
+.play-games-text{
+   
+   width: 48%;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+.play-games-grid-1{
+    
+    text-align: end;
+    width: 60%;
+}
+.play-games-img>img{
+    width: 100%;
+    height: 100%;
+}
+#Play-Instantly{
+    color: rgb(236, 74, 128)
+}
+.play-games-text-tittle{
+    font-size: 3em;
+    font-weight: bold;
+}
+.primary-colour{
+    color: #534C64;
+}
+#image-position{
+    width: 17%;
+    height: 37%;
+    position: relative;
+    left: 40%;
+    bottom: 200px;
+
+}
+.item-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 1%;
+    margin-bottom: 7%;
+    gap: 5%;
+    
+}
+.item{
+    border-radius: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin: 1%;
+
+}
+.item:hover{
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(255, 0, 255), blue) 1;
+    color:rgb(255, 0, 255) ;
+    font-weight: bold;
+}
+/* footer */
+.primary-btn>img{
+    width: 50px;
+    height: 60px;
+    /* background-color:  #495eff; */
+}
+.primary-btn{
+    background-color: #5d84c6;
+    border: none;
+}
+.primary-btn:hover{
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(255, 0, 255), blue) 1;
+    color:rgb(255, 0, 255) ;
+}
+.footer{
+    text-align: center;
+    background-color: #5d84c6;
+    color: white;
+}
+.primary-display{
+    display: flex;
+    justify-content: center;
+}
+.footer-container{
+    padding: 2%;
+}
+.footer-logo{
+    margin-bottom: 2%;
+}
+.our-story{
+    margin-bottom: 2%;
+    font-size: 1.2em;
+    /* justify-content: space-evenly; */
+    gap: 3%;
+}
+.our-story>p:hover{
+    text-decoration:underline;
+}
+.footer-button{
+    margin-bottom: 2%;
+    gap: 3%;
+}
+.footer-terms{
+    margin-bottom: 1%;
+    gap: 3%;
+}
+.footer-terms>p:hover{
+    text-decoration:underline;
+}
+@media screen and (max-width:567px) {
+
+    .bannet-div-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-content {
+        margin-left: 0%;
+    }
+    .og-img {
+        flex-direction: column;
+        /* justify-content: center; */
+        height: 50%;
+        margin-top: 1%;
+        margin-left: 7%;
+        padding:0px 50px;
+    }
+    .og-img-div>img{
+       margin: 1% 0%;
+    }
+    .play-games{
+      display: flex;  
+       flex-direction: column;
+    }
+    .play-games-img>img{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        margin-top: 2%;
+        
+    }
+    .item-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-left: 0%;
+    }
+    .item{
+        padding: 2px;
+        margin: 0.3%;
+        font-size: 0.6em;
+    }
+    .item>img{
+        
+        width: 40%;
+        
+    }
+    .play-games-grid-1{
+        text-align: center;
+        margin-left: 50%;
+        width: 100%;
+    }
+    .play-games-text-tittle{
+        font-size: 2em;
+        font-weight: bold;
+        align-items: center;
+    }
+    #image-position{
+        width: 25%;
+        height: 37%;
+        position: relative;
+        left: 2%;
+        bottom: 100px;
+    }
+    .gamer-grid{
+       flex-direction: column;
+       
+       margin-bottom: 3%;
+    }
+    .anchor{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 1%;
+        justify-content: center;
+        align-items: center;
+    }
+    .anchor>ul{
+        flex-direction: column;
+        gap: 10px;
+     align-items: center;
+        justify-content: center;
+        font-size: 1.2em;
+    }
+    .we-r-gamer{
+      flex-direction: column;
+    }  
+    .team-content{
+        text-align: center ;
+       
+       width: 70%;
+       margin-right: 2%;
+    }  
+    .gamer-img>img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .primary-display{
+       display: grid;
+       grid-template-columns: auto auto;    
+    }
+    .our-story>p{
+        font-size: 1em;
+        text-align: start;
+        /* border: 2px solid red; */
+        margin-bottom: 5%;
+    }
+    .footer-button{
+        margin-top: 7%;
+        margin-bottom: 7%;
+        gap: 3%;
+        
+    }
+    .footer-terms{
+        /* border: 2px solid red; */
+        margin-bottom: 5%;
+    }
+    .footer-terms>p{
+        /* border: 2px solid green; */
+        margin: 4%;
+    }
+}
+
