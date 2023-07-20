@@ -10,7 +10,7 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     display: flex;
     text-align: center;
-    align-items: center;
+    align-genres: center;
 }
 
 nav > ul{
@@ -39,7 +39,7 @@ nav > ul > li > a{
     width: 185px;
     
     text-align: center;
-    align-items: center;
+    align-genres: center;
     font-size: medium;
 }
 .navbutt > button{
@@ -68,7 +68,7 @@ nav > ul > li > a{
     display: flex;
     
     text-align: center;
-    align-items: center;
+    align-genres: center;
     margin-left: 500px;
     
 }
@@ -93,7 +93,7 @@ nav > ul > li > a{
 .navlogo{
     display: flex;
     text-align: center;
-    align-items: center;
+    align-genres: center;
     margin-left: 60px;
 }
 
@@ -134,7 +134,7 @@ nav > ul > li > a{
 .bannet-div-1 {
     display: flex;
     gap: 10%;
-    align-items: center;
+    align-genres: center;
 }
 
 .banner-content {
@@ -195,7 +195,7 @@ nav > ul > li > a{
 .we-r-gamer{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-genres: center;
   
 }
 .team-content{
@@ -243,7 +243,7 @@ border: 1px solid rgb(188, 181, 181);
 }
 
 .online-title-span {
-    background-image: linear-gradient(to right, rgb(236, 58, 236),rgb(121, 49, 255)e);
+    background-image: linear-gradient(to right, rgb(236, 58, 236),rgb(121, 49, 255));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -276,50 +276,47 @@ border: 1px solid rgb(188, 181, 181);
     position: relative;
     left: 15%;
 } */
-#img-1:hover, #img-2:hover, #img-3:hover, #img-4:hover{
-    opacity: 0.5;
-    
-}
 
-.play-games{
+.pg{
     margin-top: 5%;
     display: flex;
+    flex-direction: row-reverse;
     
 }
-.play-games-img{
+.pg-img{
     padding-left: 2%;
     
 }
-.play-games-text{
+.pg-text{
    
    width: 48%;
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
-   align-items: center;
+   align-genres: center;
    justify-content: center;
    
 }
-.play-games-grid-1{
+.pg-grid-1{
     
     text-align: end;
     width: 60%;
 }
-.play-games-img>img{
+.pg-img>img{
     width: 100%;
     height: 100%;
 }
 #Play-Instantly{
     color: rgb(236, 74, 128)
 }
-.play-games-text-tittle{
+.pg-text-tittle{
     font-size: 3em;
     font-weight: bold;
 }
 .primary-colour{
     color: #534C64;
 }
-#image-position{
+#second-img{
     width: 17%;
     height: 37%;
     position: relative;
@@ -327,30 +324,28 @@ border: 1px solid rgb(188, 181, 181);
     bottom: 200px;
 
 }
-.item-container{
+.genre-container{
     
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 1%;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
     gap: 5%;
     
 }
-.item{
+.genre{
     border-radius: 30%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 5px;
+    align-genres: center;
+    padding: 3px;
     margin: 1%;
 
 }
-.item:hover{
-    border: 3px solid;
-    border-image: linear-gradient(to right, rgb(255, 0, 255), blue) 1;
+.genre:hover{
+    border: 3px solid pink;
     color:rgb(255, 0, 255) ;
-    font-weight: bold;
 }
 /* footer */
 .primary-btn>img{
@@ -359,18 +354,17 @@ border: 1px solid rgb(188, 181, 181);
     /* background-color:  #495eff; */
 }
 .primary-btn{
-    background-color: #5d84c6;
+    background-color: rgb(255, 255, 255);
     border: none;
 }
 .primary-btn:hover{
-    border: 3px solid;
-    border-image: linear-gradient(to right, rgb(255, 0, 255), blue) 1;
-    color:rgb(255, 0, 255) ;
+    border: 3px solid pink;
+
 }
 .footer{
     text-align: center;
-    background-color: #5d84c6;
-    color: white;
+    background-color: rgb(173, 169, 169);
+    color: rgb(0, 0, 0);
 }
 .primary-display{
     display: flex;
@@ -379,27 +373,27 @@ border: 1px solid rgb(188, 181, 181);
 .footer-container{
     padding: 2%;
 }
-.footer-logo{
+.footer-icon{
     margin-bottom: 2%;
 }
-.our-story{
+.story{
     margin-bottom: 2%;
     font-size: 1.2em;
     /* justify-content: space-evenly; */
     gap: 3%;
 }
-.our-story>p:hover{
+.story>p:hover{
     text-decoration:underline;
 }
-.footer-button{
+.footer-btn{
     margin-bottom: 2%;
     gap: 3%;
 }
-.footer-terms{
+.footer-terms-policy{
     margin-bottom: 1%;
     gap: 3%;
 }
-.footer-terms>p:hover{
+.footer-terms-policy>p:hover{
     text-decoration:underline;
 }
 @media screen and (max-width:567px) {
@@ -407,7 +401,7 @@ border: 1px solid rgb(188, 181, 181);
     .bannet-div-1 {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-genres: center;
     }
 
     .banner-content {
@@ -424,43 +418,43 @@ border: 1px solid rgb(188, 181, 181);
     .online-img-div>img{
        margin: 1% 0%;
     }
-    .play-games{
+    .pg{
       display: flex;  
        flex-direction: column;
     }
-    .play-games-img>img{
+    .pg-img>img{
         width: 80%;
         height: 80%;
         margin-left: 10%;
         margin-top: 2%;
         
     }
-    .item-container{
+    .genre-container{
         display: grid;
         grid-template-columns: auto auto auto;
         margin-left: 0%;
     }
-    .item{
+    .genre{
         padding: 2px;
         margin: 0.3%;
         font-size: 0.6em;
     }
-    .item>img{
+    .genre>img{
         
         width: 40%;
         
     }
-    .play-games-grid-1{
+    .pg-grid-1{
         text-align: center;
         margin-left: 50%;
         width: 100%;
     }
-    .play-games-text-tittle{
+    .pg-text-tittle{
         font-size: 2em;
         font-weight: bold;
-        align-items: center;
+        align-genres: center;
     }
-    #image-position{
+    #second-img{
         width: 25%;
         height: 37%;
         position: relative;
@@ -477,12 +471,12 @@ border: 1px solid rgb(188, 181, 181);
         gap: 10px;
         margin-top: 1%;
         justify-content: center;
-        align-items: center;
+        align-genres: center;
     }
     .anchor>ul{
         flex-direction: column;
         gap: 10px;
-     align-items: center;
+     align-genres: center;
         justify-content: center;
         font-size: 1.2em;
     }
@@ -503,23 +497,23 @@ border: 1px solid rgb(188, 181, 181);
        display: grid;
        grid-template-columns: auto auto;    
     }
-    .our-story>p{
+    .story>p{
         font-size: 1em;
         text-align: start;
         /* border: 2px solid red; */
         margin-bottom: 5%;
     }
-    .footer-button{
+    .footer-btn{
         margin-top: 7%;
         margin-bottom: 7%;
         gap: 3%;
         
     }
-    .footer-terms{
+    .footer-terms-policy{
         /* border: 2px solid red; */
         margin-bottom: 5%;
     }
-    .footer-terms>p{
+    .footer-terms-policy>p{
         /* border: 2px solid green; */
         margin: 4%;
     }
